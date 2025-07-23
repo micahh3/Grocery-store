@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery Store Mockup Modified</title>
+    <title>Grocery Store Mockup</title>
     <style>
         body {
-        background-image: url('https://i.pinimg.com/736x/51/cc/f9/51ccf96670e9acb47415cc88c6b4e73a.jpg');
+            background-image: linear-gradient(white,green);
+        /* background-image: url('https://i.pinimg.com/736x/51/cc/f9/51ccf96670e9acb47415cc88c6b4e73a.jpg'); */
         /* background-image: url('https://i.pinimg.com/736x/52/77/90/5277903fe86fcc83c56724b9fa22821d.jpg'); */
+        background-image: url('https://i.pinimg.com/1200x/3d/93/f7/3d93f77e9c44d9e8b5486d7f8a740ff1.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         }
 
         h1{
             text-align:center;
-            color:black;
+            color:rgb(37, 37, 37);
         }
         h2{
             text-align:center;
@@ -73,21 +75,25 @@
             flex-direction: column;
             align-items: center;
         }
-        /* test style navigation button */
         .styled-link {
     display: block;
+    width:100vw;
+    display:flex;
+    justify-content:right;
+    flex-direction: row;
+    align-items: right;
     /* padding: 4px 0; */
     color: rgb(68, 68, 126);
-    text-align: center;
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
-    border-top: 1px solid #000;
+    border-top: 1px solid #000; */
     text-decoration: none;
     box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px 
     rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px 
     rgb(66 66 66 / 38%);
         }
+    /* test style navigation button */
 
         @keyframes colorchange{
         0% {background: green;}
@@ -134,8 +140,8 @@
     <div class="footer_div">
     <p class= footer>Thank you for visiting my grocery store website mockup!</p>
     <p class= footer2>If you want to learn all <a href="aboutme.html">about me</a> you can visit my about me page!(literally click the words "about me")</p>
-
-    <a href="secret_page.html" class=styled-link>wow click me click me please</a>
     </div>
+
+    <a href="secret_page.html" class=styled-link>hey don't click this</a>
 </body>
 </html>
