@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery Store Mockup Modified</title>
     <style>
+        body {
+        background-image: url('https://i.pinimg.com/736x/51/cc/f9/51ccf96670e9acb47415cc88c6b4e73a.jpg');
+        /* background-image: url('https://i.pinimg.com/736x/52/77/90/5277903fe86fcc83c56724b9fa22821d.jpg'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
         h1{
             text-align:center;
             color:black;
@@ -44,6 +51,43 @@
         0% {background: red}
         100% {background: blue}
         }
+        .footer{
+            background-color:white;
+            color:deeppink;
+            width:fit-content;
+            text-align:center;
+        }
+        .footer2{
+            text-align:center;
+            width:fit-content;
+            /* display:inline-block; */
+            background-color:white;
+            color:deeppink;
+            box-sizing:border-box;
+        }
+
+        .footer_div{
+            width:100vw;
+            display:flex;
+            justify-content:center;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* test style navigation button */
+        .styled-link {
+    display: block;
+    /* padding: 4px 0; */
+    color: rgb(68, 68, 126);
+    text-align: center;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    text-decoration: none;
+    box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 20%), inset -13px 0px 6px -10px 
+    rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px 
+    rgb(66 66 66 / 38%);
+        }
 
         @keyframes colorchange{
         0% {background: green;}
@@ -52,6 +96,7 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Team Edge Grocery Store</h1>
     <h2>Where Quality Beats Quantity</h2>
@@ -60,7 +105,6 @@
         <h3><a href="https://shop.heinzcatering.berkeleybowl.com/search?filter%5Btext%5D=apples&filter%5Bwidget%5D=1">Apples</a></h3>
         <a href="apples.html"><img src="https://ichef.bbci.co.uk/images/ic/480xn/p07v2wjn.jpg.webp"></a>
         <p class= info>Click on link to buy and click on picture for customized page!</p>
-        
     </div>
 
     <div class=m>
@@ -85,7 +129,13 @@
         <h3><a href="https://pearlvalleycheese.com/products/havarti-cheese?srsltid=AfmBOoqWPodnSry7QdSQR2lm85KsiMrTh0GcNaUmCJFQUPKp8IW-40Mj">Havarti Cheese</a></h3>
         <a href="cheese.html"><img src="https://pearlvalleycheese.com/cdn/shop/products/havarti-cheese.jpg?v=1676400354"></a>
         <p class= info>Click on link to buy and click on picture for customized page!</p>
-        
+    </div>
+    
+    <div class="footer_div">
+    <p class= footer>Thank you for visiting my grocery store website mockup!</p>
+    <p class= footer2>If you want to learn all <a href="aboutme.html">about me</a> you can visit my about me page!(literally click the words "about me")</p>
+
+    <a href="secret_page.html" class=styled-link>wow click me click me please</a>
     </div>
 </body>
 </html>
